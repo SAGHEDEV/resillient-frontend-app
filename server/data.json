@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": "user-demo-1",
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "password": "password123"
+    }
+  ],
+  "tokens": {
+    "demo-token-12345": "user-demo-1"
+  },
+  "tasks": [
+    {
+      "id": "task-1",
+      "userId": "user-demo-1",
+      "title": "Design presentation slides",
+      "description": "Outline key architectural differences between resilient and unresilient apps.",
+      "status": "backlog",
+      "createdAt": "2026-11-01T17:45:32.478Z",
+      "updatedAt": "2026-11-01T17:45:32.479Z"
+    },
+    {
+      "id": "task-2",
+      "userId": "user-demo-1",
+      "title": "Prepare demo scenarios",
+      "description": "Plan live offline switch test to show how an unresilient app fails without internet.",
+      "status": "in_progress",
+      "createdAt": "2026-11-02T17:45:32.479Z",
+      "updatedAt": "2026-11-02T17:45:32.479Z"
+    },
+    {
+      "id": "task-3",
+      "userId": "user-demo-1",
+      "title": "Test Kanban column transitions",
+      "description": "Verify drag and drop works between To Do, In Progress, Pending, and Completed.",
+      "status": "pending",
+      "createdAt": "2026-10-31T17:45:32.479Z",
+      "updatedAt": "2026-11-02T17:45:32.479Z"
+    },
+    {
+      "id": "task-4",
+      "userId": "user-demo-1",
+      "title": "Initialize repository structure",
+      "description": "Vite, React 19, TypeScript, and shadcn/ui components configured.",
+      "status": "done",
+      "createdAt": "2026-10-30T17:45:32.479Z",
+      "updatedAt": "2026-10-31T17:45:32.479Z"
+    }
+  ]
+}

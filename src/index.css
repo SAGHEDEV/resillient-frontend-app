@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/* Design tokens & shadcn variables */
+:root {
+  --color-primary: #147d52;
+  --color-primary-hover: #106441;
+  --color-text-main: #202823;
+  --color-text-secondary: #727b76;
+  --color-bg-page: #f7f9f7;
+  --color-surface: #ffffff;
+  --color-border: #e7ebe8;
+  --color-bg-soft-green: #eaf6ef;
+  --color-error: #c0392b;
+  --color-warning: #a86412;
+
+  /* shadcn UI variables */
+  --background: #ffffff;
+  --foreground: #202823;
+  --card: #ffffff;
+  --card-foreground: #202823;
+  --popover: #ffffff;
+  --popover-foreground: #202823;
+  --primary: #147d52;
+  --primary-foreground: #ffffff;
+  --secondary: #eaf6ef;
+  --secondary-foreground: #147d52;
+  --muted: #f7f9f7;
+  --muted-foreground: #727b76;
+  --accent: #eaf6ef;
+  --accent-foreground: #147d52;
+  --destructive: #c0392b;
+  --destructive-foreground: #ffffff;
+  --border: #e7ebe8;
+  --input: #e7ebe8;
+  --ring: #147d52;
+  --radius: 0.5rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-page);
+    color: var(--color-text-main);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
